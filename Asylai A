@@ -1,0 +1,22 @@
+print('Sum of Two Numbers \n')
+a = 3
+b = 7
+print(a + b)
+
+print(' Even or Odd \n')
+number = int(input())
+if number % 2 == 0:
+  print("number is even \n")  
+
+print('Maximum in List \n')
+nums = [1, 9, 3, 4]
+print(max(nums))
+
+print('Count Vowels \n')
+text = "hello world"
+vowels = 'aeiou'
+count = 0
+for char in text:
+    if char.lower() in vowels :
+        count += 1  
+
